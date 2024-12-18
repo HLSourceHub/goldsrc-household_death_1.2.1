@@ -1,0 +1,30 @@
+hd_house - Deathmatch
+Map by Daniel (Ewok) Carvalho 2003
+
+electronic mail : EwoksDen@hotmail.com
+Website         : http://loveandnature.co.za/ewoksden
+
+- Ewok
+
+----------------------------------------------------------------------------------------
+
+Respect goes out to...
+
+:: Textures ::
+chateau.wad    - by Macman, Ido Magal of Valve Software
+cs_havana.wad  - by Macman, Ido Magal of Valve Software
+de_storm.wad   - by Fingers, jOeSmOe, MattC
+Remedy 	       - (For some textures from Max Payne, say what you like :P)
+and me.
+
+:: Models ::
+VALVe Software - (For an amazing game Half-Life, and the DoD models I used in this map)
+Dorian "DD" Gorski
+and me.
+
+:: Music ::
+Raven Software - American McGee's Alice theme song
+
+:: Sound ::
+Tyran "Snowbro" King
+and me.

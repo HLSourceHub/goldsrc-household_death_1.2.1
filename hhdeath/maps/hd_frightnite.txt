@@ -1,0 +1,26 @@
+{HD_Fright Nite}  
+
+  Construction by: Vash (http://www.snarkpit.com/pits/vash/) 
+  Lighting and ideas by: Hugh (http://www.snarkpit.com/pits/hugh/)
+
+Well, what was originally a Halloween map for Half-Life deathmatch, is now a map for Household death.
+
+
+{Special Thanks to}
+
+Poke646(http://www.poke646.com/) - For letting us use their awsome texture's!
+Orcblood - For providing a bit of help with some texture's
+TheDoenerKing (http://thedoenerking.myexp.de/) - For most of the map's models
+DocRock (http://docrocksmaps.homestead.com/docmaps.html) - For the Bat and Tree model's
+Tresth (http://www.natural-selection.org/forums/index.php?s=4177fa63d8602b5d18cf32ccf4fe1509&act=Profile&CODE=03&MID=5602)- For the pumpkin model!
+Besli - For making me turn this map from a dream, into a reality.
+
+If you have any other maps named "Halloween" then just rename our map something else, it'll still work.
+
+
+
+Total Construction Time: 1 1/2 Days
+Texture's Used: TFC2, Poke646, HalfLife
+Editor Used: Valve Hammer Editor 3.5(beta)
+
+Vash939@hotmailcom --- Contact me for any means nessecery.

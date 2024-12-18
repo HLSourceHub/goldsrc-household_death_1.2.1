@@ -1,0 +1,6 @@
+4
+weapon			640 weapon_soda	0	0	128	64
+ammo			640 ammo_sodacan 0	0	128	64
+hud_ammo		640 hud_sodacan	0	0	32	64
+crosshair		640 cross_soda	0	0	32	32
+

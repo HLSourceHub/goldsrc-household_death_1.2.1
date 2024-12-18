@@ -1,0 +1,4 @@
+3
+weapon			640 weapon_lego	0	0	64	64
+hud_ammo		640 hud_lego	0	0	32	64
+ammo			640 weapon_lego	0	0	64	64

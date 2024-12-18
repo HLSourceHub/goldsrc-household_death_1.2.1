@@ -1,0 +1,2 @@
+1
+crosshair		640 cross_knife		0	0	32	32

@@ -1,0 +1,20 @@
+***
+hd_cathedral, created by Trevor "Gambit" Self
+***
+
+Special Thanks:
+Spookerd
+Vino
+Omega
+
+Texture Credits:
+(I've forgotten where I got most of these from, so I'll just list the .wads)
+blueprint01.wad
+cf_mansion.wad
+church.wad
+ik2k.wad
+sb-metal.wad
+
+
+Thanks to the other hhd folks who made models
+The other models were made by me, and anyone may use them if they wish.

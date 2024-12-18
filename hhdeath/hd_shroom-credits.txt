@@ -1,0 +1,5 @@
+hd_shroom by Dorian "DD" Gorski.
+Tree model, Ground and dirt textures modified from DOD.
+Music from New Japan Philharmonic Concert.
+Shrub and flower models by Arcturus.
+Rest of the models/detail props and textures by myself.

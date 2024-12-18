@@ -1,0 +1,2 @@
+1
+weapon			640 weapon_broom	0	0	128	64

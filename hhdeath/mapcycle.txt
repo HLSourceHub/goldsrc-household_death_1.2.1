@@ -1,0 +1,12 @@
+//household death's default mapcycle
+//simple.
+//
+// add/remove maps as necessary
+//
+
+hd_shroom
+hd_house
+hd_cathedral
+hd_warehouse
+hd_sewers
+hd_frightnight

@@ -1,0 +1,177 @@
+-------------------------------
+Household DEATH! v1.2.1 -- SERVER UPDATE
+October 13/2005
+Changes/Additions
+Tony "omega" Sergi
+omega@blackened-interactive.com
+-------------------------------
+
+Miscellaneous Changes:
+----------------------
+- Made flashlight shut off, if on, when you die.
+
+Gameplay/Weapon Changes:
+------------------------
+- fixed STALKER! rune scoring
+- made STALKER! a little bit weaker
+- tweaked some weapon damages
+
+Map changes:
+------------
+- hd_house: fixed some sprite names for linux
+
+-------------------------------
+Household DEATH! v1.2
+October 10/2005
+Changes/Additions
+Tony "omega" Sergi
+omega@blackened-interactive.com
+-------------------------------
+
+Miscellaneous Changes:
+----------------------
+- Optomized Network usage by 'eventifying' frequently called messages.
+
+Gameplay/Weapon Changes:
+------------------------
+- Added Hairspray and Lego Blower
+- Added STALKER! rune and weapon
+- Changed all rune behaviour
+ | all runes except the two special ones are now timed.
+ | stalker and slasher are permanent until death
+ | vampire rune now prevents splash and fall damage
+
+Model changes:
+--------------
+- Replaced/Updated Models:
+
+Map changes:
+------------
+- hd_shroom
+ | removed flying carpet
+ | added alternate way to top of house
+ | added hairspray and lego blower weapons
+- hd_house
+ | added hairspray weapon
+- hd_warehouse
+- hd_sewers
+
+
+-------------------------------
+Household DEATH! v1.1.2
+December x/2003
+Changes/Additions
+Tony "omega" Sergi
+omega@blackened-interactive.com
+-------------------------------
+
+Miscellaneous Changes:
+----------------------
+- added "chat" command "/stuck":
+ | if you find yourself stuff, press your talk key and type /stuck and press enter.
+ | if you are stuck inside an object you will respawn at another location.
+- changed rune spawnpoint location system, previously created runespawns will now float in the air and should be re-created.
+ | you can now create runespawns ontop of brush and point entities such as func_wall or models.
+
+Gameplay/Weapon Changes:
+------------------------
+| lowered max lego count to 3
+| re-added self-damage (splash) on lego/soda but made it only do 30% damage
+- added 3 more runes:
+ | Infinite Ammo - Lasts 30 seconds 
+ | Vampire - gives you 25% of the damage whoever you hit actually took (after armor/defense deduction)
+ | Slasher! - Perm till death, Special. *egrin*
+- Added the ability to pickup thrown knives/forks (press +use on them)
+- decreased length of time between fork stabs (primary attack)
+- decreased length of time between knife throws
+- runes no longer visually attach to the player (except Slasher! and Infinite Ammo) instead:
+ | double damage makes a sound when attacking
+ | defense makes a sound when taking damage
+ | haste adds a trail (read below) effect to the player using it
+ | homing creates special trails (read below) on the projectiles thrown/launched
+ | vampire makes a sound on the person receiving health
+- replaced some rune sound effects
+- tweaked lego grenade damage
+- added "momentum" to a player jumping on a moving object (like the flying carpet in shroom)
+ | what this means is, if you stand still and jump on the carpet, or another train for example
+ | you will not stay moving in one spot and just fall off the train.
+ | you will keep momentum with the train, and usually land right back onto it (provided it did not make any sharp turns/movements while you were in the air)
+- special and time-based runes no longer spawn immediately at map load, and instead wait 30 seconds before spawning.
+ | special runes wait 90 seconds. (currently only Slasher!)
+- added runes.cfg
+ | server operators/listen servers can use this to specify which runes are enabled/disabled on the server
+ | defaults to all runes enabled
+
+Model changes:
+--------------
+- Replaced/Updated Models:
+ | rune stand
+ | defense rune
+ | homing rune
+
+Map changes:
+------------
+- hd_shroom:
+ | changed the flying carpet to not spin in hopes of removing sticky.
+ | re-created all runespawn locations and added more
+- hd_house:
+ | expanded the map, added new area + a visual effect/sound for atmospheric purposes.
+- hd_evil:
+ | modified it, changed textures to make it a little more appealing.
+ | removed from main download and created optional installer.
+
+Visual Effects:
+---------------
+- New Trail effect:
+ | If that you find these trails lag you (if you have an older computer) shut them off if you need to.
+ | the cvar values are as follows:
+  | cl_trails 0 - turn it off
+  | cl_trails 1 - turn it on using default rendermode
+  | cl_trails 2 - use additive rendermode (brighter)
+- Added CO2 puff on soda launcher (temp sprite)
+
+UI/Hud Changes:
+-----------
+- New colour scheme for launcher/console
+- re-added invnext/invprev
+- adjusted weapons hud display to show the active weapon circled
+
+--------------------
+Household DEATH! v1.1
+December 1/2003
+Changes/Additions
+Tony "omega" Sergi
+omega@blackened-interactive.com
+--------------------
+-lowered brooms counter-swing rate, it was too powerful
+-restored default half-life blood sprites for temporary until we make new blood
+-all new hud images to fix overlapping, and add full color
+-fixed the crosshairs, some were compiled with the wrong blending modes
+-reduced the length of the default player killed sound
+-added FLFD's blood/gib code, so theres no more of the multicolored blood and blood trails look better
+-moved the health/armor bobbing/rotation effect to the client-side model rendering code for optomization
+-increaed the amount of health/armor the health potion and crystal give
+-removed the view model glowing when you have armor
+-increased knife and fork flight speeds to make it a little bit easier to hit over distances
+-added 4 of the 6 initial runes: 
+| Haste (adds 50% movement bonus)
+| Double Damage
+| Defense (gives you a 50% protection bonus AFTER armor is processed)
+| Homing (makes all projectiles Home for 30 seconds then the rune vaporizes, and respawns 30 seconds or so later)
+| NOTE: Rune Models/Sounds are Temporary placeholders! (some of the models MAY stay however) the rune sounds were modified from Threewave CTF for Quake as a quick insert tonight for this release!!
+-fixed the one spawn point in hd_shroom so you no longer spawn in the dresser
+-you can no longer kill yourself from splash damage from soda launcher OR lego
+| This one needs to be evaluated, but the reason was simple: it was too easy to kill yourself with them and never hit anybody, especially with the double damage rune.
+-Added map hd_evil:
+| Kuja of Digital Paintball converted the CS map de_resident_evil to HHD (with permission)
+| If the author still has the original RMF we will try to get it updated with textures from hd_house, plus additional improvements that couldn't be done when the map was originally created.
+
+--------------------
+Household DEATH! v1.0
+November 28/2003
+Changes/Additions
+Tony "omega" Sergi
+omega@blackened-interactive.com
+--------------------
+-Initial Release
+

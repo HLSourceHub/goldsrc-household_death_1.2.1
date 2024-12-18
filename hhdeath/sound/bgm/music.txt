@@ -1,0 +1,7 @@
+mappers, place mp3's here.
+inside hammer, and map properties under the music option, put JUST the file WITHOUT .mp3
+
+ie: to play alights.mp3 put alights
+
+Note: don't use spaces in mp3 filenames!
+-omega
